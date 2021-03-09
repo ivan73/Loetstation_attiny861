@@ -12,7 +12,7 @@
 #define Version "FW 2.6 by DFI"
 #define VersionSeg "F2.6"
 
-#include "Loetstation_7Seg.h"
+#include "Loetstation.h"
 
 uint16_t getTemperature();
 void notAus(int code);
