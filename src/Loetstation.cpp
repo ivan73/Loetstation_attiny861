@@ -3,12 +3,11 @@
 #include <EEPROM.h>
 #include <Bounce2.h>
 
-
-//#define LCD
 #define LCD 0
 #define MAX7219 1
 #define MAX6958 2
-#define ANZEIGE MAX6958 //LCD //MAX6958 //MAX7219
+#define ANZEIGE MAX6958 //Auswahl der Anzeigeart
+
 #define Version "FW 2.6 by DFI"
 #define VersionSeg "F2.6"
 
